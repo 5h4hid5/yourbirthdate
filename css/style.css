@@ -10,10 +10,16 @@
 
  =============================================*/
 
+@import url('http://amarbornomala.org/webfont/?family=ABShaplaBeta');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'ABShaplaBeta', Philosopher, sans-serif;
 }
 
 .flex {
