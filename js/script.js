@@ -35,8 +35,12 @@ function nextQsn() {
 
 function getNum() {
     num = document.getElementById('num').value;
-    calculateDate(num);
-    showBirthDate();
+    if (num > 20599){
+      calculateDate(num);
+      showBirthDate();  
+    } else {
+        content.innerHTML = '<p>' + "দুখিত! আপনি কোনো সংখ্যা দেননি কিংবা গণনায় ভুল করেছেন।" + '</p><br><a href="bn.yourbirthdate.html" class="start-btn">আবার শুরু করুন</a>';
+    }     
 }
 
 function calculateDate(a){
