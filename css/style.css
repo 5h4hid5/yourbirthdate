@@ -1,0 +1,55 @@
+/*=============================================
+  ____  _____ _______        _     _           
+ |  _ \|  __ \__   __|      | |   (_)          
+ | |_) | |  | | | | ___  ___| |__  _  ___  ___ 
+ |  _ <| |  | | | |/ _ \/ __| '_ \| |/ _ \/ __|
+ | |_) | |__| | | |  __/ (__| | | | |  __/\__ \
+ |____/|_____/  |_|\___|\___|_| |_|_|\___||___/
+ 
+ !------- We Convert IDEAS into REALITY ------!
+
+ =============================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#content p {
+    font-size: 2em;
+}
+
+#btn {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: #777;
+    color: whitesmoke;
+}
+
+.start-btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: #777;
+    color: whitesmoke;
+}
+
+#num {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
