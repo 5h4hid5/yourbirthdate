@@ -23,6 +23,7 @@ body {
 }
 
 .flex {
+    background: url(../img/symphony.png) repeat fixed 100%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
