@@ -18,8 +18,18 @@
     box-sizing: border-box;
 }
 
+* a {
+    transition: all 0.3s ease-in-out;
+}
+
+* a:hover {
+    text-decoration: none;
+    color: #F9690E;
+}
+
 body {
     font-family: 'ABShaplaBeta', Philosopher, sans-serif;
+    position: relative;
 }
 
 .flex {
@@ -33,7 +43,8 @@ body {
 }
 
 #content p {
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 2em;
 }
 
 #btn {
@@ -42,9 +53,11 @@ body {
     line-height: 50px;
     background: #777;
     color: whitesmoke;
+    border: none;    
 }
 
 .start-btn {
+    color: #ddd;
     display: inline-block;
     width: 200px;
     height: 50px;
@@ -53,10 +66,72 @@ body {
     color: whitesmoke;
 }
 
+.start-btn:hover {
+    color: #fff;
+}
+
 #num {
     width: 200px;
     height: 50px;
     line-height: 50px;
     padding-left: 1em;
     margin-bottom: 2em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+    line-height: 60px;
+}
+
+.footer p {
+    margin: 0;
+    display: inline-block;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+.footer li a {
+    padding: 0.5em 1em;
+}
+
+.facebook, .twitter, .google-plus {
+    color: #ddd;
+}
+
+.facebook:hover, .twitter:hover, .google-plus:hover {
+    color: #fff;
+}
+
+.facebook {
+    background: #3A5795;
+}
+
+.twitter {
+    background: #1DA1F2;
+}
+
+.google-plus {
+    background: #D73D32;
+}
+
+@media screen and (max-width: 360px) {
+    
+    #content p {
+        font-size: 1em;
+    }
+    
+    .gp {
+        display: none !important;
+    }
 }
