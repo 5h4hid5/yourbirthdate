@@ -39,7 +39,7 @@ function getNum() {
       calculateDate(num);
       showBirthDate();  
     } else {
-        content.innerHTML = '<p>' + "দুখিত! আপনি কোনো সংখ্যা দেননি কিংবা গণনায় ভুল করেছেন।" + '</p><br><a href="bn.yourbirthdate.html" class="start-btn">আবার শুরু করুন</a>';
+        content.innerHTML = '<p>' + "দুঃখিত! আপনি কোনো সংখ্যা দেননি কিংবা গণনায় ভুল করেছেন।" + '</p><br><a href="bn.yourbirthdate.html" class="start-btn">আবার শুরু করুন</a>';
     }     
 }
 
